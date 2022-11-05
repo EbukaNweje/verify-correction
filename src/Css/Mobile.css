@@ -1,0 +1,44 @@
+@media (max-width: 900px) {
+    .HeaderNav {
+      display: none;
+    }
+  
+    .MyMenu {
+      display: block;
+      cursor: pointer;
+      background-color: #fff;
+      align-items: center;
+    }
+    .Mobile {
+      width: 100%;
+      height: max-content;
+      background-color: #fff;
+      position: absolute;
+      z-index: 6666;
+      top: 100px;
+    }
+  .Mymobile {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 10000;
+    background: white;
+    animation-name: myAnim;
+    animation-duration: 1.5s;
+    transition: all 350ms;
+  }
+  
+  @keyframes myAnim {
+    0% {
+        transform: translateY(-80%);
+        opacity: 0.75;
+    }
+  
+    100% {
+        transform: translateY(30%);
+        opacity: 1;
+    }
+  }
+}
