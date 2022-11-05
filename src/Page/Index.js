@@ -2,7 +2,7 @@ import React from 'react'
 import Header from '../Components/Header'
 import "../Css/Style.css"
 import "../Css/Mobile.css"
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import { BrowserRouter,  Routes } from 'react-router-dom'
 // import Payment from '../components/Payment'
 // import Main from '../components/Main'
 // import Totop from "../components/Totop"
