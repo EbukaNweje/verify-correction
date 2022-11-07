@@ -25,6 +25,7 @@
 .HeaderNav ul {
   transition: all 350ms ease-in;
   display: flex;
+  background-color: #fff;
   justify-content: space-around;
 }
 
@@ -71,6 +72,10 @@
   animation-name: myAnim;
   animation-duration: 1.5s;
   transition: all 350ms;
+}
+
+.Mymobile ul {
+  background-color: #fff;
 }
 
 @keyframes myAnim {
