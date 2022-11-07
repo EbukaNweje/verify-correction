@@ -41,4 +41,29 @@
         opacity: 1;
     }
   }
+
+  .HomeContainer {
+    display: flex;
+    align-items: center;
+    background: #000;
+    flex-direction: column;
+}
+
+.H1 {
+    padding-top: 25px;
+}
+
+.H1 h1{
+    font-size: 49.6843px;
+    width: 90%;
+    font-weight: 700;
+    line-height: 55.6465px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.HomeContainer p {
+    width:  90%;
+    text-align: center;
+}
 }
