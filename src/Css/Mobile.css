@@ -1,33 +1,60 @@
 @media (max-width: 900px) {
-    .HeaderNav {
+
+  .Header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 999999;
+    box-sizing: border-box;
+  }
+    .header_nav {
       display: none;
     }
+
+    .Header img {
+      width: 35%;
+      height: 50%;
+    }
   
-    .MyMenu {
+    .menu {
       display: block;
       cursor: pointer;
       background-color: #fff;
       align-items: center;
     }
-    .Mobile {
-      width: 100%;
-      height: max-content;
-      background-color: #fff;
+
+    .Mymobile {
+      width: 100vw;
+      z-index: 999;
       position: absolute;
-      z-index: 6666;
-      top: 100px;
+      left: 0;
+      top: 100%;
+      background: #fff;
+      height: 50vh;
     }
-  .Mymobile {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    z-index: 10000;
-    background: white;
-    animation-name: myAnim;
-    animation-duration: 1.5s;
-    transition: all 350ms;
+
+    .Mymobile ul {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      padding: 20px;
+      box-sizing: border-box;
+      align-items: center;
+      flex-direction: column;
+      animation: myAnim 1.5s;
+      transition: all 350ms;
+      color: white;
+      justify-content: space-between;
+      background-color: rgb(143, 29, 29);
+    }
+    
+  .Mymobile ul li {
+    list-style-type: none;
+  }
+
+  .Mymobile ul li:hover {
+    color: navy;
+    cursor: pointer;
   }
   
   @keyframes myAnim {
@@ -35,9 +62,13 @@
         transform: translateY(-80%);
         opacity: 0.75;
     }
+
+    /* 50% {
+      transform: translateY(30%);
+    } */
   
     100% {
-        transform: translateY(30%);
+        transform: translateY(20%);
         opacity: 1;
     }
   }

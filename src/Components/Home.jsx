@@ -1,6 +1,6 @@
 import React from 'react'
-import {AiOutlineArrowDown} from "react-icons/ai"
-import { Link } from 'react-router-dom'
+// import {AiOutlineArrowDown} from "react-icons/ai"
+// import { Link } from 'react-router-dom'
 const Home = () => {
   // const Nav = useNavigate()
   return (
