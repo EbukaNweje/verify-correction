@@ -1,100 +1,35 @@
 @media (max-width: 900px) {
+.Header {
+    position: relative;
+}
 
-  .Header {
-    position: sticky;
-    top: 0;
-    left: 0;
-    z-index: 999999;
-    box-sizing: border-box;
-  }
-    .header_nav {
-      display: none;
-    }
+.Header nav {
+    display: none;
+}
 
-    .Header img {
-      width: 35%;
-      height: 50%;
-    }
-  
-    .menu {
-      display: block;
-      cursor: pointer;
-      background-color: #fff;
-      align-items: center;
-    }
-
-    .Mymobile {
-      width: 100vw;
-      z-index: 999;
-      position: absolute;
-      left: 0;
-      top: 100%;
-      background: #fff;
-      height: 50vh;
-    }
-
-    .Mymobile ul {
-      width: 100%;
-      height: 100%;
-      display: flex;
-      padding: 20px;
-      box-sizing: border-box;
-      align-items: center;
-      flex-direction: column;
-      animation: myAnim 1.5s;
-      transition: all 350ms;
-      color: white;
-      justify-content: space-between;
-      background-color: rgb(143, 29, 29);
-    }
-    
-  .Mymobile ul li {
-    list-style-type: none;
+.Header img {
+    width: 35%;
+    margin-left: 5%;
   }
 
-  .Mymobile ul li:hover {
-    color: navy;
-    cursor: pointer;
-  }
-  
-  @keyframes myAnim {
-    0% {
-        transform: translateY(-80%);
-        opacity: 0.75;
-    }
-
-    /* 50% {
-      transform: translateY(30%);
-    } */
-  
-    100% {
-        transform: translateY(20%);
-        opacity: 1;
-    }
-  }
-
-  .HomeContainer {
+.MobileBug {
     display: flex;
-    align-items: center;
-    background: #000;
-    flex-direction: column;
+    margin-right: 30px;
+    font-size: 18px;
+    cursor: pointer;
 }
 
-.H1 {
-    padding-top: 25px;
+.MobileMenuDrop {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 100%;
+    height: 80vh;
+    background-color: white;
 }
 
-.H1 h1{
-    font-size: 49.6843px;
-    width: 90%;
-    font-weight: 700;
-    line-height: 55.6465px;
-    color: rgb(255, 255, 255);
-    text-align: center;
+.MobileMenuDrop .Nav ul li{
+    color: black;
 }
 
-.HomeContainer p {
-    width:  90%;
-    text-align: center;
-}
 }
