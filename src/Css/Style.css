@@ -41,8 +41,67 @@
   display: none;
 }
 
-.HomePage {
+.HomeContainer {
   width: 100%;
-  height: 80vh;
-  background: #000;
+  height: 83vh;
+  background-color: rgba(255,255,255,0);
+  background-image: url(https://cdn.shortpixel.ai/spai/q_lossy+ret_img+to_webp/https://getinstaverified.com/wp-content/uploads/2022/09/marketing-verifiedbadge-intro.jpg);
+  background-image:linear-gradient(180deg, rgba(0,0,0,0.24) 93%,#ffffff 93%),url(https://getinstaverified.com/wp-content/uploads/2022/09/marketing-verifiedbadge-intro.jpg);
+  background-position: center center;background-repeat: no-repeat;
+  border-width: 0px 0px 0px 0px;
+  border-color:rgba(0,0,0,0.08);
+  border-style:solid;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size:cover;
+}
+
+.H1 {
+  padding-top: 80px;
+}
+
+.HomeContainer h1 {
+  margin-top: 0;
+  padding: 0;
+  width: 60%;
+  font-family: "DM Sans", Arial, Helvetica, sans-serif;
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 80.64px;
+  color: rgb(255, 255, 255);
+  margin-left: 30px;
+}
+
+.HomeContainer p {
+  font-family: "DM Sans", Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 40px;
+  color: rgb(255, 255, 255);
+  width: 50%;
+  margin-left: 30px;
+}
+
+.Button {
+  margin-left: 30px;
+  width: 250px;
+  background: navy;
+  color: #ffffff;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "DM Sans", Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21px;
+  border-radius: 7px;
+  border: 2px solid white;
+  transition: all 250ms;
+  cursor: pointer;
+}
+
+.Button:hover{
+  background-color: transparent;
 }
