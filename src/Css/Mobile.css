@@ -84,6 +84,40 @@
     text-align: center;
 }
 
+
+
+    .con {
+        flex-direction: column;
+        height: max-content;
+        /* background-color: black; */
+    }
+
+    .imageImg img {
+        width: 100%;
+    }
+
+    .txt {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .cont {
+        flex-direction: column;
+        /* background-color: black; */
+    }
+
+    .imager img {
+        margin-left: 0px;
+        width: 100%;
+    }
+
+    .text {
+        width: 100%;
+        margin-left: 0;
+    }
+    
 }
+
+
 
 
