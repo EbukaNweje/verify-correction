@@ -1,10 +1,8 @@
 import React from 'react'
 import "../Css/Style.css"
 import "../Css/Mobile.css"
-import { BrowserRouter,  Routes } from 'react-router-dom'
-import Header from '../Components/Header'
-import Home from '../Components/Home'
-import HowItWorks from '../Components/HowItworks'
+import { BrowserRouter, Route,  Routes } from 'react-router-dom'
+import Main from '../Components/Main'
 // import Payment from '../components/Payment'
 // import Main from '../components/Main'
 // import Totop from "../components/Totop"
@@ -14,11 +12,9 @@ const Index = () => {
     <div>
         <BrowserRouter>
         {/* <Totop/> */}
-           <Header/>
-           <Home/>
-           <HowItWorks/>
+          {/* <Main/> */}
           <Routes>
-            {/* <Route path='/' element={<Main/>}/> */}
+            <Route path='/' element={<Main/>}/>
             {/* <Route path='/Payment' element={<Payment/>} /> */}
           </Routes>
         </BrowserRouter>
