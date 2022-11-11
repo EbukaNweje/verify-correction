@@ -1,5 +1,5 @@
 import React from 'react'
-import '../css/Footer.css'
+// import '../css/Footer.css'
 import Logo1 from "../Assets/oie_transparent.png"
 import Logostar from '../Assets/image copy/stars.png'
 import Logo2 from '../Assets/cash app.png'
@@ -34,7 +34,7 @@ const Footer = () => {
                 </ul>
                 <ul className='shedolist'>
                     <li className="same"><h6>Other service</h6></li>
-                    <li className="lastli">Full service Instagram growth coming soon.</li>
+                    <li className="lastli">Buy active Instagram followers.</li>
                 </ul>
             </div>
         </div>
@@ -64,7 +64,7 @@ const Footer = () => {
     </div>
 </div>
     </div>
-  )
+  ) 
 }
 
 export default Footer
