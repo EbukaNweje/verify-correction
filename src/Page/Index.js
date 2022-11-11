@@ -3,19 +3,19 @@ import "../Css/Style.css"
 import "../Css/Mobile.css"
 import { BrowserRouter, Route,  Routes } from 'react-router-dom'
 import Main from '../Components/Main'
-// import Payment from '../components/Payment'
+import Payment from '../Components/Payment'
 // import Main from '../components/Main'
-// import Totop from "../components/Totop"
+import Totop from "../Components/Totop"
 
 const Index = () => {
   return (
     <div>
         <BrowserRouter>
-        {/* <Totop/> */}
+        <Totop/>
           {/* <Main/> */}
           <Routes>
             <Route path='/' element={<Main/>}/>
-            {/* <Route path='/Payment' element={<Payment/>} /> */}
+            <Route path='/Payment' element={<Payment/>} />
           </Routes>
         </BrowserRouter>
 

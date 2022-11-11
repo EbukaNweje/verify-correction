@@ -575,7 +575,441 @@
         margin: 0px;
         color: blue;
     }
-    
+        .header {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 100%;
+            align-items: center;
+        }
+
+        
+  .PopCard {
+    width: 90%;
+}
+
+.PopCard p {
+    font-size: 18px;
+}
+
+
+        .cont {
+            width: 100%;
+            height: fit-content;
+            background-repeat: no-repeat;
+        }
+        .picx{
+            width: 70%;
+        }
+        .header{
+            height: 35%;
+            padding-top: 5%;
+            /* background-color: red; */
+            
+        }
+        .Payment_main {
+        padding-bottom: 14%;
+      
+        }
+        .inputcont{
+            width: 94%;
+            
+        }
+        .inputconts{
+            width: 50%;
+            /* background-color: wheat; */
+        }
+        .inputconta{
+            width: 44%;
+            /* background-color: yellowgreen; */
+        }
+        .twoinput,.Payment_two{
+            /* background-color: yellow; */
+            width: 97%;
+        }
+        .three {
+            /* background-color: violet; */
+            width: 97%;
+            /* display: flex; */
+      
+        }
+        .inputcontainer{
+            /* background-color: rebeccapurple; */
+            margin-top: 2%;
+            width: 98%;
+        }
+        .formtag{
+            /* background-color: red; */
+            padding-left: 3%;
+            padding-right: 3%;
+        }
+        .formheader{
+            display: none;
+        }
+        .Payment_main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            /* justify-content: space-between; */
+            /* background-color: wheat; */
+      
+            height: fit-content;
+            /* max-height: max-content; */
+            /* padding-bottom: 10px; */
+            width: 100%;
+        }
+        .picxdiv{
+            width: 100%;
+            /* background-color: yellowgreen; */
+            display: flex;
+            justify-content: center;
+        }
+        .pictext{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            /* background-color: aqua; */
+            width: 90%;
+            margin-bottom: 10%;
+            height: 60%;
+            /* width: 100%; */
+        }
+        .textparagraph{
+            margin-top: 2%;
+            font-size: 18px;
+        }
+        .Payment_text{
+            margin-top: 5%;
+            /* background-color: aliceblue; */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 50%;
+        }
+        
+        .Payment_h3{
+            width: 100%;
+            font-size: 35px;
+        }
+        .rows1 {
+            /* background-color: aliceblue; */
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            /* align-items: center; */
+      
+        }
+        
+        .Payment_text{
+            width: 100%;
+            text-align: center;
+            /* margin-bottom: 10%; */
+        }
+        .Payment_form {
+            margin-top: 0%;
+            width: 100%;
+            padding-top: 7%;
+        }
+        .formcont{
+            display: flex;
+            flex-direction: column;
+        }
+        .twoinput{
+            display: flex;
+            flex-direction: column;
+        }
+        .inputconts{
+            width: 99%;
+            margin-top: 1%;
+            
+        }
+        .three {
+            display: flex;
+            flex-direction: column;
+            /* background-color: red; */
+        }
+        /* .inputcontainer {
+            width: 100%;
+            margin-top: 1%;
+        } */
+        .summary {
+            margin-top: 5%;
+            /* background-color: red; */
+            
+        }
+        .btn {
+            margin-top: 5%;
+        }
+        .paymentinfo{
+            margin-top: 5%;
+            /* background-color: red; */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .verify {
+            margin-top: 5%;
+        }
+        .aticlescont {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .growth {
+            margin-top: 5%;
+        }
+        .growthimg {
+            width: 150px;
+        }
+        .dash {
+            height: fit-content;
+            /* background-color: gold; */
+            width: 95%;
+            padding-bottom: 5%;
+        }
+        
+        .cardz{
+            /* background-color: yellowgreen; */
+            width: 100%;
+        }
+        .pg {
+            line-height: 16px;
+            text-align: center;
+        }
+      
+        .unordered li {
+            font-size: 14px;
+            display: flex;
+            justify-content: flex-start;
+            margin-left: -5px;
+        }
+      
+        .aticlesconttext p span, .pg span {
+            font-weight: bold;
+        }
+        .cardz {
+            /* background-color: red; */
+            height: 40px;
+            width: 80%;
+        }
+        .aticlesconttext,.pg{
+            text-align: left;
+            /* background-color: red; */
+            width: 94%;
+            font-size: 14px;
+            padding-left: 3%;
+            padding-right: 3%;
+      
+        }
+        .pg{
+            margin-left: -2%;
+        }
+        .ul {
+            line-height: 20px;
+        }
+        li {
+            /* background-color: aqua; */
+            margin-left: 5%;
+            font-size: 14px;
+        }
+        .card1{
+            /* width: ; */
+            /* background-color: rebeccapurple; */
+            height: 20px;
+        }
+        .fte {
+            /* background-color: rebeccapurple; */
+            height: 80px;
+        }
+        .foot {
+            height: fit-content;
+        }
+        .ftcont{
+            width: 100%;
+            /* background-color: blue; */
+        }
+        .radiopg{
+            font-size: 13px;
+            /* text-align: center; */
+            /* background-color: red; */
+            width: 100%;
+            margin-left: 1%;
+        }
+        .order{
+            /* background-color: yellowgreen; */
+            width: 97%;
+            height: 50px;
+        }
+        .summaries{
+            width: 96%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            /* background-color: vio/let; */
+            padding-left: 2%;
+            padding-right: 2%;
+        }
+        .btn {
+            font-size: 15px;
+        }
+        .transact{
+            display: none;
+        }
+        
+        .dashheader{
+            display: flex;
+            /* flex-direction: column; */
+            align-items: flex-start;
+            /* background-color: aqua; */
+            height: fit-content;
+            padding-left: 5%;
+            padding-right: 2%;
+            font-size: 15px;
+            padding-bottom: 20px;
+        }
+        
+        
+        .yes {
+            padding-left: 5%;
+        }
+        .twototal{
+            padding-left: 9%;
+            font-size: 15px;
+        }
+        .verify{
+            display: none;
+        }
+        .subtotal,.total{
+            display: none;
+            background-color: yellow;
+        }
+        .fthidden {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            /* justify-content: center; */
+            /* background-color: rebeccapurple; */
+            width: 95%;
+        }
+        .packagehidden {
+            margin-left: 5%;
+            font-size: 15px;
+        }
+        .foot {
+            /* background-color: red; */
+            width: 95%;
+        }
+        h2 {
+            font-size: 16px;
+        }
+        .all {
+            /* background-color: red; */
+            margin-top: 1%;
+            font-size: 14px;
+        }
+      
+        .PayImg {
+            width: 60%;
+        }
+      
+        .PaymentText {
+            flex-direction: column;
+            align-items: center;
+        }
+      
+        .Pay_art {
+            width: 90%;
+            margin-bottom: 15px;
+        }
+      
+        .Paytext {
+            width: 140%;
+            /* background-color: #fff; */
+            text-align: center;
+        }
+      
+        .Paytext h1 {
+            width: 100%;
+        }
+        .info {
+            line-height: 23px;
+            margin-bottom: 5%;
+        }
+        .ft5 {
+            display: flex;
+            flex-direction: column;
+            /* background-color: tomato; */
+        }
+        
+        .footpg{
+            width: 95%;
+        }
+        .formfootpg{
+            /* background-color: aqua; */
+            margin-top: 5%;
+            margin-bottom: 5%;
+            width: 100%;
+            line-height: 20px;
+            font-size: 15px;
+        }
+        .get{
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .subtotalhidden{
+            padding-bottom: 2%;
+        }
+        .verifyhidden{
+            display: flex;
+            /* align-items: center; */
+            /* background-color: red; */
+            padding-bottom: 2%;
+        }
+        .ft5{
+            display: flex;
+            flex-direction: column;
+            /* background-color: yellow; */
+        }
+        
+        .get {
+            display: flex;
+            flex-direction: column;
+        }
+        .get1{
+            margin-top: 10%;
+            /* background-color: red; */
+        }
+        .get2 {
+            margin-top: 10%;
+        }
+        .get3{
+            margin-top: 10%;
+        }
+        .place{
+            width: 80%;
+            height: 50px;
+        }
+        .futers {
+            /* height: 20px; */
+            /* background-color: ; */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            height: max-content;
+        }
+      
+        .Pay_copy {
+            margin-bottom: 0px;
+            text-align: center;
+        }
+        .formfootpopixcdcd{
+            width: 50%;
+            margin-right: 20%;
+        }
+      
   }
   
   

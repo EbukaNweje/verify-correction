@@ -3,6 +3,7 @@ import "../Css/Style.css"
 import "../Css/Mobile.css"
 import Logo from "../Assets/oie_transparent.png"
 import Mobile from './Mobile'
+import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai'
 
 const Header = () => {
     const [toggle, setToggle] = useState(false)
@@ -20,8 +21,8 @@ const Header = () => {
             </ul>
         </nav>
         {
-            toggle ? <div className='MobileBug' onClick={()=> setToggle(false)}>Close</div> 
-            : <div className='MobileBug' onClick={()=> setToggle(true)}>Menu</div>
+            toggle ? <div className='MobileBug' onClick={()=> setToggle(false)}>Close <AiOutlineClose className='Menu_icons'/></div> 
+            : <div className='MobileBug' onClick={()=> setToggle(true)}>Menu <AiOutlineMenu className='Menu_icons'/></div>
         }
             {
                 toggle ? <Mobile/> : null
