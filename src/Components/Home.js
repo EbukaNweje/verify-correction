@@ -1,6 +1,7 @@
 import React from 'react'
 import {AiOutlineArrowDown} from "react-icons/ai"
-import { Link } from 'react-router-dom'
+// import { Link } from 'react-router-dom'
+import { HashLink as Link } from 'react-router-hash-link'
 const Home = () => {
   // const Nav = useNavigate()
   return (
@@ -9,9 +10,9 @@ const Home = () => {
         <p>
         Let us help you get verified on Instagram. No bots or gimmicks, a 100% human-powered service to help you get a blue tick.
         </p>
-       <Link to="#Pricing">
+        <Link to='#Pricing'>
           <div className='Button'>GET STARTED TODAY <AiOutlineArrowDown className='BtnT'/></div>
-       </Link>
+          </Link>
     </div>
   )
 }

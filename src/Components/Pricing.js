@@ -29,7 +29,7 @@ let ArryData = [
 ]
 
   return (
-    <div className='main_pricing' id='Pricing'>
+    <div className='main_pricing' id="Pricing">
         <h1>Pricing</h1>
         <span>We offer two options. A full-service
              package that will get you more online

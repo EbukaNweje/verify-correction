@@ -11,11 +11,36 @@ const Mobile = () => {
                   Nav('/')
                   window.location.reload()
                 }}>Home</li>
-                <li>How It Works</li>
-                <li>About</li>
-                <li>FAQ</li>
-                <li>Support</li>
-                <li>Get Started</li>
+                <li
+                 onClick={()=>{
+                  Nav('/')
+                  window.location.reload()
+                }}
+                >How It Works</li>
+                <li
+                onClick={()=>{
+                  Nav('/')
+                  window.location.reload()
+                }}
+                >About</li>
+                <li
+                onClick={()=>{
+                  Nav('/')
+                  window.location.reload()
+                }}
+                >FAQ</li>
+                <li
+                onClick={()=>{
+                  Nav('/')
+                  window.location.reload()
+                }}
+                >Support</li>
+                <li
+                onClick={()=>{
+                  Nav('/')
+                  window.location.reload()
+                }}
+                >Get Started</li>
             </ul>
         </div>
     </div>

@@ -9,6 +9,7 @@
   height: 130px;
   background: white;
   display: flex;
+  box-sizing: border-box;
   justify-content: space-between;
   align-items: center;
 }
@@ -16,6 +17,10 @@
 .Header img {
   width: 13%;
   margin-left: 5%;
+}
+
+.Big_maincon {
+  box-sizing: border-box;
 }
 
 .Header nav {
@@ -48,6 +53,7 @@
   padding-left: 10px;
   padding-top: 40px;
   flex-direction: column;
+  box-sizing: border-box;
   justify-content: space-evenly;
   background-color: rgba(255,255,255,0);
   background-image: url(https://cdn.shortpixel.ai/spai/q_lossy+ret_img+to_webp/https://getinstaverified.com/wp-content/uploads/2022/09/marketing-verifiedbadge-intro.jpg);
@@ -103,6 +109,7 @@
   height: max-content;
   display: flex;
   flex-direction: column;
+  box-sizing: border-box;
   align-items: center;
   margin-top: 100px;
 }
@@ -248,6 +255,8 @@ line-height: 61.56px;
   display: flex;
   flex-direction: column;
   font-family: "DM Sans", Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  /* background: #000; */
   margin-left: 20px;
   align-items: center;
 }
@@ -413,6 +422,7 @@ font-size: 45px;
   height: max-content;
   font-family: "DM Sans", Arial, Helvetica, sans-serif;
   display: flex;
+  box-sizing: border-box;
   /* background-color: black; */
   justify-content: center;
 }
@@ -422,6 +432,7 @@ font-size: 45px;
   height: 100vh;
   flex-wrap: wrap;
   display: flex;
+  /* box-sizing: border-box; */
   justify-content: space-around;
   align-items: center;
 }
@@ -485,6 +496,7 @@ font-size: 45px;
   font-family: "DM Sans", Arial, Helvetica, sans-serif;
   margin-top: 10%;
   align-items: center;
+  box-sizing: border-box;
   background-color: rgb(246, 244, 249);
   height: max-content;
 }
@@ -559,6 +571,7 @@ font-size: 45px;
   height: max-content;
   display: flex;
   font-family: "DM Sans", Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
   align-items: center;
   flex-direction: column;
 }
@@ -571,6 +584,39 @@ font-size: 45px;
   margin-top: 30px;
   margin-left: 10px;
 } 
+
+.Terms_container, .Privacy_container {
+  width: 100%;
+  padding: 30px;
+  /* background-color: #fff; */
+}
+
+.Terms_container h4 {
+  width: 100%;
+}
+
+.Terms_container h1, .Privacy_container h1 {
+  width: 100%;
+  display: flex;
+  font-size: 55px;
+  justify-content: center;
+}
+
+.Terms_container p, .Privacy_container p {
+  line-height: 30px;
+  font-size: 19px;
+  width: 100%;
+}
+
+.Privacy_container h2 {
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.Privacy_container ul li {
+  font-size: 19px;
+  line-height: 30px;
+}
 
 
 .blogallblogall h3{
@@ -661,10 +707,6 @@ font-size: 45px;
 
 
 
-.containerblogall a{
-  text-decoration: none;
-  color: #000;
-}
 
 .Expert_container {
   width: 98.5%;
@@ -672,6 +714,7 @@ font-size: 45px;
   align-items: center;
   font-family: "DM Sans", Arial, Helvetica, sans-serif;
   padding: 10px;
+  box-sizing: border-box;
   justify-content: space-between;
   background-color: black;
   height: 125vh;
@@ -831,7 +874,7 @@ font-size: 45px;
   /* margin-right: 10px; */
   margin-left: -55px;
 }
-.header {
+.Footerheader {
   display: flex;
   justify-content: space-between;
   padding: 15px;
@@ -858,8 +901,27 @@ font-size: 45px;
   width: 19%;
 }
 
+.shedolists {
+  width: 30%;
+  padding: 10px;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  /* background-color: green; */
+}
+
+.shedolists li {
+  list-style-type: none;
+  margin-top: 5px;
+}
+
+.shedolists li:hover {
+  color: blue;
+  cursor: pointer;
+}
+
 .shedolist li:hover {
       color: blue;
+      cursor: pointer;
 }
 
 h6 {
@@ -950,7 +1012,7 @@ h6 {
   width: 100%;
   display: flex;
   background-color: #0B152D;
-  height: 80vh;
+  height: max-content;
   font-family: "DM Sans", Arial, Helvetica, sans-serif;
   flex-direction: column;
   justify-content: space-between;
@@ -1664,6 +1726,172 @@ h4 {
   flex-direction: column;
   align-items: center;
 }
+
+
+.Support_main{
+  width: 100%;
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Support_both{
+  width: 95%;
+  height: 130vh;
+  /* background-color: #000; */
+  display: flex;
+  justify-content: space-between;
+  margin-top: 130px;
+}
+
+.Support_one{
+  width: 45%;
+}
+
+.Support_two{
+  width: 50%;
+}
+
+.Support_txt{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Support_txt h1{
+  font-size: 70px;
+}
+
+.Support_txt p{
+  font-size: 15px;
+  margin-top: 3px;
+}
+
+.Support_txt p a{
+  color: #000;
+  text-decoration: none;
+}
+
+
+
+.Support_one h1{
+  font-size: 50px;
+  margin-top: 30px;
+}
+
+.Support_one p{
+  font-size: 22px;
+  margin-top: 30px;
+}
+
+.Support_one ul li {
+  font-size: 22px;
+  margin-top: 40px;
+  line-height: 0px;
+  margin-left: 40px;
+  /* margin-bottom: 50px; */
+}
+
+.Support_image{
+  display: flex;
+  margin-top: 40px;
+  font-size: 22px;
+}
+
+.Supportbtn{
+  width: 600px;
+  height: 60px;
+  border: 1px solid gainsboro;
+  display: flex;
+  background-color: white;
+  align-items: center;
+  margin-left: 5px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.Supportbtnn{
+  width: 600px;
+  height: 150px;
+  border: 1px solid gainsboro;
+  display: flex;
+  background-color: white;
+  /* margin: 50px; */
+  margin-left: 5px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.Supportbtnn img{
+  /* margin: 15px;
+  margin-right: 5px; */
+  width: 50px;
+  height: 50px;
+  margin-top: 10px;
+}
+
+.Supportbtnnone{
+  margin: 15px;
+  margin-left: 0px;
+}
+
+.Supportbtn:hover{
+  border:  1px solid navy;
+}
+
+  .Supportbtnone{
+      font-size: 22px;
+      margin-left: 10px;
+  }
+
+  .Support_image img{
+      margin-left: 10px;
+  }
+
+  .Supportbtn img{
+      margin-left: 10px;
+  }
+
+  .Support_ora{
+      width: 230px;
+      display: flex;
+      align-items: center;
+      padding: 15px;
+      color: white;
+      background-color: navy;
+      border-radius: 10px;
+      margin-top: 50px;
+      margin-left: 15px;
+  }
+
+  .Supportbtnn:hover{
+      border: 1px solid navy;
+  }
+  .Support_ora img{
+      margin-left: 25px;
+  }
+  
+
+  .Support_InputCon {
+      width: 90%;
+      height: 90%;
+      border: none;
+      margin-left: 5px;
+      outline: none;
+  }
+
+  .Support_InputConT {
+      height: 90%;
+      margin-top: 5px;
+      width: 78%;
+      padding-top: 20px;
+      padding-left: 10px;
+      outline: none;
+      border: none;
+      font-size: 20px;
+  }
+
 
 
 

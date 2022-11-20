@@ -6,6 +6,7 @@ import Fourmg from '../Assets/icon2.png'
 import FiveImg from '../Assets/pic3.webp'
 import SixImg from '../Assets/icon 3.png'
 import {AiOutlineArrowDown} from 'react-icons/ai'
+import { HashLink as Link } from 'react-router-hash-link'
 // import { useNavigate } from 'react-router-dom'
 
 const HowItWork = () => {
@@ -30,8 +31,9 @@ const HowItWork = () => {
                     <p> – A public account, with a profile picture.</p>
 
                    <p> – A minimum of 6 posts with a good level of engagement.</p>
+                   <Link to='#Pricing'>
                    <div className='ButtonG'>GET STARTED TODAY <AiOutlineArrowDown/></div>
-                
+                   </Link>
             </div>
         </div>
         </div>

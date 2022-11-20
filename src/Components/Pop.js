@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
-import Secondpop from '../Css/Secondpop'
+import Secondpop from '../Components/Secondpop'
 
 const Pop = () => {
   const Nav = useNavigate()
