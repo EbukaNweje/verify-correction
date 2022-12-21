@@ -31,7 +31,7 @@ const HowItWork = () => {
                     <p> – A public account, with a profile picture.</p>
 
                    <p> – A minimum of 6 posts with a good level of engagement.</p>
-                   <Link to='#Pricing'>
+                   <Link to='#Pricing' className='BtnPricing'>
                    <div className='ButtonG'>GET STARTED TODAY <AiOutlineArrowDown/></div>
                    </Link>
             </div>

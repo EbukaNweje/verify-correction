@@ -5,7 +5,7 @@ import Logo from "../Assets/oie_transparent.png"
 import { useNavigate } from 'react-router-dom'
 // import { HashLink as Link } from 'react-router-hash-link'
 // import Mobile from './Mobile'
-// import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai'
+// import { AiOutlineMenu[=], AiOutlineClose } from 'react-icons/ai'
 
 const Header = () => {
     const Nav = useNavigate()

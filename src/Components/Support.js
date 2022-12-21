@@ -2,7 +2,7 @@ import React from 'react'
 import Firstpix from '../Assets/Screenshot 2022-10-04 135613.png'
 import Secondpix from '../Assets/Screenshot 2022-10-04 161618.png'
 import Thirdpix from '../Assets/Screenshot 2022-10-05 033142.png'
-import Fourthpix from '../Assets/Screenshot 2022-10-05 035835.png'
+// import Fourthpix from '../Assets/Screenshot 2022-10-05 035835.png'
 import fifth from '../Assets/Screenshot 2022-10-05 033425.png'
 
 const Support = () => {
@@ -18,7 +18,7 @@ const Support = () => {
           <p>Any questions before you order, or about an existing order? No problem, we are here to help.</p>
           <p>Here’s how you can reach our 24/7 support team</p>
           <ul>
-          <li>By emailing hello@getverifiedme.com</li>
+          <li>By emailing info@getverifiedme.org</li>
           <li>Via live chat (bottom-right corner)</li>
           <li>By entering the contact form</li>
       </ul>
@@ -65,7 +65,7 @@ const Support = () => {
           </div>
           </div>
            <div className="Support_ora">
-              <img src={Fourthpix} alt='' />
+              {/* <img src={Fourthpix} alt='' /> */}
               <p>Send message</p>
            </div>
       </div>

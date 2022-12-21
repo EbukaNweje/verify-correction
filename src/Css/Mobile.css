@@ -4,6 +4,7 @@
     top: 0;
     left: 0;
     z-index: 999;
+    height: 70px;
 }
 
 .Header nav {
@@ -69,7 +70,7 @@
 }
 
 .H1 {
-    padding-top: 25px;
+    margin-top: -60px;
 }
 
 .H1 h1{
@@ -79,11 +80,14 @@
     line-height: 55.6465px;
     color: rgb(255, 255, 255);
     text-align: center;
+    margin-bottom: 1px;
+    margin-top: -20px;
 }
 
 .HomeContainer p {
     width:  90%;
     text-align: center;
+    margin-left: 0px
 }
 
 
@@ -420,6 +424,8 @@
             font-size: 17px;
             width: 100%;
             text-align: center;
+            text-decoration: none;
+            color: black;
         }
         .row2{
             display: flex;
@@ -1052,13 +1058,8 @@
             font-size: 30px;
             width: 130%;
             font-size: 20px;
-            margin-left: 21px;
-        }
-    
-        .Support_one li{
-            /* margin-left: 10px; */
-            line-height: 5px;
-            font-size: 20px;
+            line-height: 20px;
+            margin-left: -31px;
         }
     
     
@@ -1117,6 +1118,35 @@
         .Support_ora{
             margin-left: 24px;
             margin-bottom: 30px;
+        }
+
+        .GrowYourHead h1 {
+            width: 90%;
+            font-size: 30px;
+        }
+
+        .GrowYourHead2 h1 {
+            width: 90%;
+            font-size: 30px;
+            height: max-content;
+        }
+
+        .BigBann {
+            margin-top: 50%;
+        }
+
+        .BigBann {
+            height: 40vh;
+        }
+
+        .BigBannImage img {
+            height: 60%;
+            /* width: 100%; */
+        }
+
+        .BigBann2 {
+            margin-top: 90%;
+            height: 30vh;
         }
             
       

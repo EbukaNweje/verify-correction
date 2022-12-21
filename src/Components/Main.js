@@ -8,10 +8,12 @@ import Faq from './Faq'
 import Home from './Home'
 import HowItWorks from './HowItworks'
 import Pricing from './Pricing'
+// import Header from "./Header"
 
 const Main = () => {
   return (
     <div className='Big_maincon'>
+         {/* <Header/> */}
            <Home/>
            <HowItWorks/>
            <Pricing/>

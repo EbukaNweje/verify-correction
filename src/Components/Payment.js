@@ -8,6 +8,7 @@ import Img6 from '../Assets/imagecopy2/shield.png'
 import Img7 from '../Assets/imagecopy2/lock.png'
 import Img8 from '../Assets/imagecopy2/igpic.png'
 import Pop from './Pop'
+import Axios from "axios"
 
 const Payment = () => {
     let Data = JSON.parse(localStorage.getItem("Array"))
@@ -32,7 +33,8 @@ const [growth, setGrowth] = useState(0)
 // const [collect, setCollect] = useState({})
 
 const price = Data[1]
-// console.log(setPrice())
+const totalP = price + growth
+console.log(totalP)
 
 const myfunction = ()=> {
     if(!msg0 || !msg1 || !msg2 || !msg3 || !msg4 || !msg5 || !msg6 || !msg7 || !msg8 || !msg9) {
@@ -42,17 +44,27 @@ const myfunction = ()=> {
        }
        else if(agree && agree1) {
         let collect = {
-            instagramUsername: msg0,
-            firstName: msg4,
-            secondName: msg5,
+            userName: msg0,
+            fristName: msg4,
+            lastName: msg5,
             email: msg3,
-            phone: msg6,
-            streetAddress: msg1,
-            town: msg7,
-            postcode: msg2,
+            phoneNumber: msg6,
+            address: msg1,
+            townCity: msg7,
+            postCode: msg2,
             country: msg8,
-            state: msg9
+            state: msg9,
+            amount: totalP
         }
+
+        // const config = {
+        //     headers: {
+        //       "content-type": "multipart/formData"
+        //     }
+        //   }
+
+        Axios.post("https://getinstaverifiedbackend-production-44c3.up.railway.app/api/v1/getverify",collect).then(res=>{ console.log(res)})
+
         setShow(true)
         console.log(collect)
     }

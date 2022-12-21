@@ -10,7 +10,7 @@ const Home = () => {
         <p>
         Let us help you get verified on Instagram. No bots or gimmicks, a 100% human-powered service to help you get a blue tick.
         </p>
-        <Link to='#Pricing'>
+        <Link to='#Pricing' className='BtnPricing'>
           <div className='Button'>GET STARTED TODAY <AiOutlineArrowDown className='BtnT'/></div>
           </Link>
     </div>

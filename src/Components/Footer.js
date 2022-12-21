@@ -25,7 +25,7 @@ const Footer = () => {
                 <ul className='shedolist'>
                     <h6 className='same'>Sitemap</h6>
                     <li className='home'>Home</li>
-                    <li>Blog</li>
+                    {/* <li>Blog</li> */}
                     <li onClick={()=> Nav('Support')}>Support</li>
                 </ul>
                 <ul className='shedolist'>
@@ -41,7 +41,7 @@ const Footer = () => {
             </div>
         </div>
         <div className="footer">
-            <div className="row1">© 2022 getverifiedme </div>
+            <div className="row1"onClick={()=>Nav('GetPayment')}>© 2022 getverifiedme </div>
             <div className="row2">
                 <div className="rate" ><img src={Logostar} alt="what" className="star"/>4.5/5</div>
                 <div className="pictextIn"><p className="mail">info@getverifiedme.org</p>
