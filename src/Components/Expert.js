@@ -28,7 +28,7 @@ const Expert = () => {
                 <img src={Logo} alt="" />
             </div>
             <h2>Larry Rohan</h2>
-            <h4>WhatsApp: +1 (754) 250‑3645</h4>
+            {/* <h4>WhatsApp: +1 (754) 250‑3645</h4> */}
             <p>Social Media Expert</p>
             <div className="email_div">
                 <h4>info@getverifiedme.org</h4>       
